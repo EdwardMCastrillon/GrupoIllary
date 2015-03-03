@@ -1,0 +1,68 @@
+
+gris_claro = #818181
+verde_logo = #00A903
+verde_masClaro = #0FFB06
+
+.information
+	margin 3em 0 2em 0
+	padding 0 3em
+	text-align center
+	h1
+		font-size 2em
+	p
+		padding 0 1.5em
+
+.separator
+	width 100%
+	text-align center
+	.line
+		background gris_claro
+		height 3px
+		width 45%
+	b
+		font-size 4em
+		margin 0
+		padding 0
+		vertical-align top
+		color verde_logo
+.buttonMore
+	margin .5em auto 
+	width 170px
+	height 50px
+	border 1px solid verde_logo
+	border-radius 10px
+	p
+		color verde_logo
+		font-size 1.1em
+	&:hover
+		cursor pointer
+		background verde_logo
+		transition left .1s ease-in-out, background-color .1s ease-out .1s
+		p
+			color white
+.left
+	float left
+.right
+	float right
+		
+//OOCSS
+.center-text
+	text-align center 
+.container
+	margin 2em 4em
+	height auto
+.artist
+	width 18em
+	margin 2em
+	display inline-block
+	.name
+		font-family 'Roboto' sans-serif
+		font-size 2rem
+		padding-bottom .5em
+		border-bottom 2px solid black
+	.image
+		margin 0
+		padding 0
+		img
+			border-radius 50%
+			
